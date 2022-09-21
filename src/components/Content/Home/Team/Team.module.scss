@@ -1,0 +1,58 @@
+.team {
+  h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    text-transform: uppercase;
+
+    color: #A8AABC;
+  }
+
+  & .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    & .member {
+      //margin: 20px 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+
+      & .iconDenis {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #D9D9D9;
+      }
+
+      & .name {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+        text-align: center;
+
+        color: #000000;
+      }
+
+      & .role {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height, or 120% */
+        text-align: center;
+
+        color: #000000;
+      }
+    }
+  }
+}

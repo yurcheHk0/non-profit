@@ -1,0 +1,43 @@
+.activity {
+
+  h2 {
+    padding: 60px 0 40px 0;
+    text-transform: uppercase;
+    color: #A8AABC;
+  }
+
+  & .shortDesc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+    color: #000000;
+
+    padding: 0 0 40px 0;
+  }
+
+  & .stat {
+    display: flex;
+
+    & .table {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+
+      & .title {
+        height: 48px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        /* identical to box height, or 120% */
+
+        color: #0057B7;
+      }
+    }
+  }
+}

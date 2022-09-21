@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c83b23f-1b27-4abd-84bc-f17078066e8f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="5a62943c-ddcf-40be-bb58-82434cd25c43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Home/Activity/Activity.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Home/Activity/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Home/Contacts/Contacts.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Home/Contacts/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Home/SocialNetworks/SocialNetworks.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Home/SocialNetworks/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Home/Team/Team.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Home/Team/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Home/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/social/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/social/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/social/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/social/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/social/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,19 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="6edea1fb-c16e-40c5-95eb-5b856340f449" />
-        <option name="url" value="https://github.com/yurcheHk0/non-profit.git" />
-      </UrlAndAccount>
-    </option>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2F5cxjiqzJXPUhtSiVxhNK70CUe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2F5kZ10MdRErv3r9LVbNdbDo6Kb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,30 +58,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images/social" />
+    <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/Footer" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/images/social" />
+      <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -80,23 +101,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4c83b23f-1b27-4abd-84bc-f17078066e8f" name="Changes" comment="" />
-      <created>1663785633879</created>
+      <changelist id="5a62943c-ddcf-40be-bb58-82434cd25c43" name="Changes" comment="" />
+      <created>1663789385130</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663785633879</updated>
-      <workItem from="1663785636106" duration="641000" />
-      <workItem from="1663786281629" duration="2278000" />
-      <workItem from="1663788581195" duration="411000" />
-      <workItem from="1663789005972" duration="80000" />
+      <updated>1663789385130</updated>
+      <workItem from="1663789388130" duration="7346000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
