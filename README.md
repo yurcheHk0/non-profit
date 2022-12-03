@@ -1,3 +1,6 @@
+# Design 
+https://www.figma.com/file/mdyMmW5d31tEjOvZkpZ2ZO/Не-словом-а-ділом?node-id=113%3A207&t=70cUliKCctsCBEcu-0
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

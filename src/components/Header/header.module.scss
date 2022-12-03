@@ -7,6 +7,34 @@
   background-repeat: no-repeat;
   background-position: center;
 
+  &.mobile {
+    & .top {
+
+      & .logo {
+
+        & .icon {
+          width: 40px;
+          height: 55px;
+          background-size: contain;
+          margin-left: 10px;
+          margin-right: 20px;
+        }
+
+        & .title {
+          font-size: 20px;
+        }
+      }
+    }
+
+    & .bottom {
+      & .title {
+        font-size: 60px;
+        line-height: 65px;
+        margin-top: 120px;
+      }
+    }
+  }
+
   & .top {
     display: flex;
     align-items: center;
@@ -51,6 +79,7 @@
           font-style: normal;
           font-weight: 600;
           font-size: 16px;
+          white-space: nowrap;
         }
       }
     }

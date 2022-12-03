@@ -1,9 +1,12 @@
 import React from "react";
 
+import { isMobile } from "react-device-detect";
+
 import styles from "./Contacts.module.scss";
 
-export default function Contacts({}) {
-    return <div className={styles.contacts}>
+export default function Contacts() {
+    //@TODO: use context provider istead
+    return <div id={'contacts'} className={`${styles.contacts} ${isMobile ? styles.mobile : ''}`}>
         <h2>
             Контакти
         </h2>

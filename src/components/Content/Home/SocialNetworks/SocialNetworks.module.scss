@@ -1,24 +1,40 @@
 .social {
+
+  &.mobile {
+    & .grid {
+
+      & > * {
+        width: 48%;
+        height: 159px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
   h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
-    /* identical to box height, or 125% */
     text-transform: uppercase;
 
     color: #A8AABC;
   }
 
   & .grid {
-    display: grid;
-    grid-template-columns: 290px 290px 290px 290px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
     & > * {
-      width: 290px;
+      width: 24%;
       height: 287px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
       background-repeat: no-repeat;
       background-position: center;
+      background-size: cover;
     }
 
     & .img1 {

@@ -1,22 +1,35 @@
 .team {
+
+  &.mobile {
+    & .grid {
+
+      & .member {
+        width: 50%;
+      }
+    }
+  }
+
   h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
-    /* identical to box height, or 125% */
     text-transform: uppercase;
 
     color: #A8AABC;
   }
 
   & .grid {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
 
     & .member {
-      //margin: 20px 100px;
+      width: 33%;
+      box-sizing: border-box;
+
       display: flex;
       flex-direction: column;
       justify-content: center;

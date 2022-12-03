@@ -1,9 +1,11 @@
 import React from "react";
 
+import { isMobile } from "react-device-detect";
+
 import styles from "./SocialNetworks.module.scss";
 
-export default function SocialNetworks({}) {
-    return <div className={styles.social}>
+export default function SocialNetworks() {
+    return <div className={`${styles.social} ${isMobile ? styles.mobile : ''}`}>
         <h2>
             ми в соціальних мережах
         </h2>

@@ -6,11 +6,7 @@ import Team from "./Team";
 import Contacts from "./Contacts";
 
 export default
-function Home(
-    {
-
-    }
-) {
+function Home() {
     return <div>
         <Activity />
         <SocialNetworks />

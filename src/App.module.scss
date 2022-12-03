@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .app {
-  /*text-align: center;*/
+  overflow: hidden;
+
+  &.mobile {
+    & .main {
+      padding: 0 10px;
+    }
+  }
 
   & .main {
     padding: 0 112px;

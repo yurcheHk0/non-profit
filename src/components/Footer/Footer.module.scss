@@ -7,6 +7,31 @@
   height: 136px;
   background-color: #0057B7;
 
+  &.mobile {
+    padding: 0 10px;
+    height: 90px;
+
+    & .left {
+      font-size: 16px;
+      line-height: 18px;
+
+      & .logo {
+        margin-right: 15px;
+      }
+    }
+
+    & .right {
+      & .btn {
+        width: auto;
+        height: auto;
+        padding: 10px;
+
+        font-size: 13px;
+        line-height: 16px;
+      }
+    }
+  }
+
   & .left,
   & .right {
     width: 100%;

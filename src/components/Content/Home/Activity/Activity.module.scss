@@ -1,5 +1,19 @@
 .activity {
 
+  &.mobile {
+    & .stat {
+      flex-direction: column;
+
+      & .table {
+        margin-bottom: 30px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
   h2 {
     padding: 60px 0 40px 0;
     text-transform: uppercase;

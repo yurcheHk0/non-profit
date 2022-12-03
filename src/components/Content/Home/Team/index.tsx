@@ -1,9 +1,11 @@
 import React from "react";
 
+import { isMobile } from "react-device-detect";
+
 import styles from "./Team.module.scss";
 
-export default function Team({}) {
-    return <div className={styles.team}>
+export default function Team() {
+    return <div id={'team'} className={`${styles.team} ${isMobile ? styles.mobile : ''}`}>
         <h2>Команда</h2>
 
         <div className={styles.grid}>

@@ -1,14 +1,16 @@
 import React from "react";
 
+import { isMobile } from "react-device-detect";
+
+import { BrowserView } from "react-device-detect";
+
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 import styles from "./header.module.scss";
 
 export default
-function Header(
-    {
-
-    }
-) {
-    return <div className={styles.header}>
+function Header() {
+    return <div className={`${styles.header} ${isMobile ? styles.mobile : ''}`}>
         <div className={styles.top}>
             <div className={styles.logo}>
                 <div className={styles.icon} />
@@ -17,15 +19,25 @@ function Header(
                     Фонд.
                 </div>
             </div>
-            <div className={styles.menu}>
-                <ul>
-                    <li>Наша діяльність</li>
-                    <li>Збір коштів</li>
-                    <li>Команда</li>
-                    <li>Контакти</li>
-                    <li>EN</li>
-                </ul>
-            </div>
+            <BrowserView>
+                <div className={styles.menu}>
+                    <ul>
+                        <li>
+                            <AnchorLink href='#activity'>Наша діяльність</AnchorLink>
+                        </li>
+                        <li>
+                            Збір коштів
+                        </li>
+                        <li>
+                            <AnchorLink href='#team'>Команда</AnchorLink>
+                        </li>
+                        <li>
+                            <AnchorLink href='#contacts'>Контакти</AnchorLink>
+                        </li>
+                        {/* <li>EN</li> */}
+                    </ul>
+                </div>
+            </BrowserView>
         </div>
         <div className={styles.bottom}>
             <div className={styles.title}>

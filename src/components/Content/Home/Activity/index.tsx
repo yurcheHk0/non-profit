@@ -1,9 +1,11 @@
 import React from "react";
 
+import { isMobile } from "react-device-detect";
+
 import styles from "./Activity.module.scss";
 
-export default function Activity({}) {
-    return <div className={styles.activity}>
+export default function Activity() {
+    return <div id={'activity'} className={`${styles.activity} ${isMobile ? styles.mobile : ''}`}>
         <h2>Наша діяльність</h2>
 
         <div className={styles.shortDesc}>
