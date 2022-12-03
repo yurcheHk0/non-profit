@@ -12,7 +12,10 @@ export default function Team() {
         
         <div className={styles.grid}>
             {TeamMemberMapper?.map((member) => {
-                return <div className={styles.member}>
+                return <div 
+                    className={styles.member}
+                    key={member.name}
+                 >
                     <div 
                         className={styles.icon}
                         style={{backgroundImage: `url(${member?.icon!})`}}
