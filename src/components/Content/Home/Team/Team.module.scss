@@ -16,8 +16,11 @@
     align-items: baseline;
 
     & .member {
+      font-family: 'Montserrat';
+      font-style: normal;
       width: 33%;
       box-sizing: border-box;
+      color: #000000;
 
       display: flex;
       flex-direction: column;
@@ -25,35 +28,40 @@
       align-items: center;
       margin-bottom: 40px;
 
+      & .pic img {
+        border: 1px solid red;
+        border-radius: 200px;
+        width: 200px;
+        height: 200px;
+      }
+
       & .icon {
         width: 160px;
         height: 160px;
         border-radius: 50%;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #D9D9D9;
+        background-repeat: no-repeat;
+        background-size: 170px 170px;
+        background-position: inherit;
       }
 
       & .name {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
+        font-weight: 600;
+        font-size: 28px;
         line-height: 32px;
         /* identical to box height, or 133% */
         text-align: center;
-
-        color: #000000;
+        margin-top: 10px;
       }
 
       & .role {
-        font-family: 'Montserrat';
-        font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 24px;
         /* identical to box height, or 120% */
         text-align: center;
 
-        color: #000000;
+       
       }
     }
   }
