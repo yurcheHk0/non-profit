@@ -18,7 +18,7 @@ export default function Activity() {
         <div className={styles.stat}>
             <div className={styles.table}>
                 <div className={styles.title}>
-                    1 млн+ грн
+                    2 млн+ грн
                 </div>
                 <div className={styles.description}>
                     Передано на потреби армії
@@ -27,7 +27,7 @@ export default function Activity() {
 
             <div className={styles.table}>
                 <div className={styles.title}>
-                    100+ тон
+                    20+ тон
                 </div>
                 <div className={styles.description}>
                     Гуманітарної допомоги перевезено
@@ -36,7 +36,7 @@ export default function Activity() {
 
             <div className={styles.table}>
                 <div className={styles.title}>
-                    3 авто
+                    5 авто
                 </div>
                 <div className={styles.description}>
                     Передано на потреби армії
@@ -47,7 +47,7 @@ export default function Activity() {
 
                 </div>
                 <div className={styles.description}>
-                    А також: 3 ноутбуки, 10 тепловіхорів, 5 ПНІ, 1 дальномір
+                    А також: 3 ноутбуки, 10 тепловізорів, 5 ПНІ, 1 дальномір, теплий одяг
                 </div>
             </div>
         </div>

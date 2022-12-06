@@ -1,35 +1,57 @@
 export const TeamMemberMapper = [
     {
         name: "Денис Тарасов",
-        role: "засновник",
-        icon: 'https://i.pravatar.cc/150?img=3'
+        role: "директор",
+        icon: 'dent.jpg'
     },
     {
         name: "Олексій Оленюк",
-        role: "засновник"
+        role: "волонтер",
+        icon: 'oleksiio.jpg'
+    },
+    {
+        name: "Петрова Ірина",
+        role: "волонтер",
+        icon: 'petrovai.jpg'
     },
     {
         name: "Андрій Кіктенко",
-        role: "засновник"
+        role: "волонтер"
     },
     {
         name: "Олег Павленко",
-        role: "засновник"
+        role: "волонтер",
+        icon: 'olegp.jpg'
+    },
+    {
+        name: "Андрій Богуш",
+        role: "волонтер",
+        icon: 'andriib.jpg'
     },
     {
         name: "Олег Барило",
-        role: "засновник"
+        role: "волонтер",
+        icon: 'olegb.jpg'
+    },
+    {
+        name: "Дмитро никитюк",
+        role: "волонтер",
+        icon: 'dmytron.jpg'
     },
     {
         name: "Сергій Ніколаєв",
-        role: "засновник"
+        role: "волонтер"
     },
     {
         name: "Юрій Юрченко",
-        role: "засновник"
+        role: "волонтер"
+    },
+    {
+        name: "Віталій Педченко",
+        role: "волонтер"
     },
     {
         name: "Анна Баранова",
-        role: "засновник"
+        role: "волонтер"
     },
 ];

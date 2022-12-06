@@ -28,7 +28,7 @@ export default function Contacts() {
                     Телефони:
                 </div>
                 <div className={styles.value}>
-                    +380999999999
+                    +380937717022
                 </div>
             </div>
             <div className={styles.row}>
@@ -36,7 +36,7 @@ export default function Contacts() {
                     Месенджери:
                 </div>
                 <div className={styles.value}>
-                    +380999999999
+                    +380937717022
                 </div>
             </div>
         </div>

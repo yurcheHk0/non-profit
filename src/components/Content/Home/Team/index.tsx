@@ -18,13 +18,10 @@ export default function Team() {
                  >
                     <div 
                         className={styles.icon}
-                        style={{backgroundImage: `url(${member?.icon!})`}}
+                        style={{backgroundImage: `url(/userPic/${member?.icon!})`}}
                      />
                     <div className={styles.name}>
                         {member.name}
-                    </div>
-                    <div className={styles.role}>
-                        {member.role}
                     </div>
                 </div>
             })}
