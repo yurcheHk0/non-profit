@@ -1,6 +1,12 @@
+@import "../../../../common/mixins.scss";
+
 .social {
 
+  @include mainPadding;
+  
   &.mobile {
+    @include mobileMainPadding;
+    
     & .grid {
 
       & > * {

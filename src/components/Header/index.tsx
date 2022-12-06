@@ -8,7 +8,7 @@ import DesktopMenu from "./Menu/DesktopMenu";
 import MobileMenu from "./Menu/MobileMenu";
 
 export default
-    function Header() {
+function Header() {
     return <div className={`${styles.header} ${isMobile ? styles.mobile : ''}`}>
         <div className={styles.top}>
             <div className={styles.logo}>
@@ -18,7 +18,7 @@ export default
                     Фонд.
                 </div>
             </div>
-            { isMobile ? <MobileMenu /> : <DesktopMenu /> }
+            {isMobile ? <MobileMenu /> : <DesktopMenu />}
         </div>
         <div className={styles.bottom}>
             <div className={styles.title}>
@@ -27,7 +27,10 @@ export default
             <div className={styles.description}>
                 Ми благодійна організація яка виникла як волонтерський рух, що допомогає військовим формуванням України та її громадянам
             </div>
-            <div className={styles.button}>
+            <div
+                className={styles.button}
+                onClick={() => console.log('Долучитися')}
+            >
                 Долучитися
             </div>
             <div className={styles.arrow} />

@@ -1,6 +1,12 @@
+@import "../../../../common/mixins.scss";
+
 .team {
 
+  @include mainPadding;
+
   &.mobile {
+    @include mobileMainPadding;
+
     & .grid {
       justify-content: space-between;
 

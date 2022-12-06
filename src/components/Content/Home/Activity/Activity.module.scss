@@ -1,6 +1,12 @@
+@import "../../../../common/mixins.scss";
+
 .activity {
 
+  @include mainPadding;
+  
   &.mobile {
+    @include mobileMainPadding;
+    
     & .stat {
       flex-direction: column;
 

@@ -1,6 +1,13 @@
+
+@import "../../../../common/mixins.scss";
+
 .contacts {
 
+  @include mainPadding;
+  
   &.mobile {
+    @include mobileMainPadding;
+    
     & .list {
       flex-direction: column;
 

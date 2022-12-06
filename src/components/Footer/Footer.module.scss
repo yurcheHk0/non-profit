@@ -1,14 +1,17 @@
-.footer {
-  margin-top: 30px;
-  padding: 0 112px;
+@import "../../common/mixins.scss";
 
+.footer {
+  @include mainPadding;
+  
+  margin-top: 30px;
   display: flex;
   align-items: center;
   height: 136px;
   background-color: #0057B7;
 
   &.mobile {
-    padding: 0 10px;
+    @include mobileMainPadding;
+
     height: 90px;
 
     & .left {

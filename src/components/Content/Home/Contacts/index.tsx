@@ -6,6 +6,7 @@ import styles from "./Contacts.module.scss";
 
 export default function Contacts() {
     //@TODO: use context provider istead
+    //@TODO: move list info to the mapper
     return <div id={'contacts'} className={`${styles.contacts} ${isMobile ? styles.mobile : ''}`}>
         <h2>
             Контакти
