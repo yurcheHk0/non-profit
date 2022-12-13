@@ -6,6 +6,7 @@ import styles from "./header.module.scss";
 
 import DesktopMenu from "./Menu/DesktopMenu";
 import MobileMenu from "./Menu/MobileMenu";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default
 function Header() {
@@ -31,9 +32,11 @@ function Header() {
                 className={styles.button}
                 onClick={() => console.log('Долучитися')}
             >
-                Долучитися
+                 <AnchorLink href='#fundraising'>Долучитися</AnchorLink>
             </div>
-            <div className={styles.arrow} />
+            <div className={styles.arrow} >
+                <AnchorLink href='#activity'></AnchorLink>
+            </div>
         </div>
     </div>
 }
