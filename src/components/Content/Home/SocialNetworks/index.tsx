@@ -24,15 +24,15 @@ export default function SocialNetworks() {
             <div className={styles.img12} />
         </div>
         <div className={styles.links}>
-            <span>
+            <div className={styles.linksItem}>
                 Instagram: <a target="blank" href={'https://www.instagram.com/niwbid/'}>niwbid</a><br/>
-            </span> 
-            <span>
+            </div> 
+            <div className={styles.linksItem}>
                 Facebook: <a target="blank" href={'https://www.facebook.com/niwbid'}>Не словом а ділом</a>
-            </span>
-            <span>
+            </div>
+            <div className={styles.linksItem}>
                 Telegram: <a target="blank" href={'https://t.me/not_in_word_but_in_deed'}>@not_in_word_but_in_deed</a>
-            </span>
+            </div>
             
             
         </div>

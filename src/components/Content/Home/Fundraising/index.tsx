@@ -25,18 +25,11 @@ export default
                 </div>
 
                 <div className={styles.btnWrap}>
-                    <div
+                    <a href="https://send.monobank.ua/jar/7KdKrgF3ZR"
                         className={styles.btn}
-                        onClick={() => console.log('Переказ з картки')}
                     >
-                        Переказ з картки
-                    </div>
-                    <div
-                        className={styles.btn}
-                        onClick={() => console.log('Банка МОНО')}
-                    >
-                        Банка МОНО
-                    </div>
+                        Переказ МОНО
+                    </a>
                 </div>
             </div>
             <div className={styles.paypal}>

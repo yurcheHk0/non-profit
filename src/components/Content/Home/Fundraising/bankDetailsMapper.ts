@@ -33,37 +33,36 @@ export const detailsMap = [
         ]
     },
     {
-        title: "Swift USD",
+        title: "SWIFT TRANSFERS",
         value: [
             {
-                name: "Account No",
+                name: "Company Name",
+                value: "CO NOT IN WORD, BUT IN DEED",
+            },
+            {
+                name: "IBAN CODE USD",
                 value: "UA133220010000026002510000764",
             },
             {
-                name: "SWIFT",
-                value: "UNJSUAUKXXX",
-            },
-            {
-                name: "Name",
-                value: 'CO "NOT IN WORD, BUT IN DEE"',
-            },
-        ]
-    },
-    {
-        title: "Swift EUR",
-        value: [
-            {
-                name: "Account No",
+                name: "IBAN CODE EUR",
                 value: "UA313220010000026001510000765",
             },
             {
-                name: "SWIFT",
-                value: "UNJSUAUKXXX",
+                name: "Name of the bank",
+                value: "JSC UNIVERSAL BANK, 54/19, Avtozavodska St., Kyiv, 04114",
             },
             {
-                name: "Name",
-                value: 'CO "NOT IN WORD, BUT IN DEE"',
+                name: "Bank SWIFT Code",
+                value: "UNJSUAUKXXX", 
+            },
+            {
+                name: "Company address",
+                value: "9 Sosninyh Sim'i str., building 9, Kyiv, 03134, Ukraine", 
+            },
+            {
+                name: "Details of payment",
+                value: "Charitable donation", 
             },
         ]
-    },
+    }
 ]
