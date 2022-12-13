@@ -48,7 +48,8 @@ export const TeamMemberMapper = [
     },
     {
         name: "Віталій Педченко",
-        role: "волонтер"
+        role: "волонтер",
+        icon: 'pedchenko.jpg'
     },
     {
         name: "Анна Баранова",
